@@ -1,0 +1,6 @@
+/* main section */
+.main {
+  background: url(images/your_verse_subhead_small.png) no-repeat,
+    url(images/your_verse_hero.jpg) no-repeat;
+  height: 33em;
+}
