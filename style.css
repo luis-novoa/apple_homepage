@@ -59,17 +59,21 @@ a:hover {
   display: flex;
   justify-content: space-around;
   z-index: 2;
-  background-image: 
-    linear-gradient(
-      to top,
-      #8d8d8d,
-      #707070 50%,
-      #5e5e5e 50%,
-      #737373
+  background-image:
+  linear-gradient(
+    to top,
+    #8d8d8d,
+    #707070 50%,
+    #5e5e5e 50%,
+    #737373
     );
-  box-sizing: content-box;
-  box-shadow: 0 1px 3px -1px;
-  margin-bottom: 3em;
+    box-sizing: content-box;
+    box-shadow: 0 1px 3px -1px;
+    margin-bottom: 3em;
+  }
+  
+.text > * {
+  align-self: center;
 }
 
 .main nav > * {
@@ -137,12 +141,14 @@ a:hover {
   align-self: center;
 }
 
-.text > * {
-  align-self: center;
-}
 
 .text-img1 {
   margin-bottom: -0.6em;
+}
+
+.img-links a {
+  flex: 1;
+  height: 13em;
 }
 
 .text a {
@@ -151,6 +157,12 @@ a:hover {
   width: 60em;
   margin-top: 2em;
   z-index: 2;
+}
+
+.footer2 a {
+  border-right: 1px solid #9f9d9d;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
 }
 
 .text a:hover {
@@ -167,10 +179,6 @@ a:hover {
   display: flex;
 }
 
-.img-links a {
-  flex: 1;
-  height: 13em;
-}
 
 .img-links a span {
   visibility: hidden;
@@ -222,12 +230,6 @@ footer {
   border-right: 1px solid #9f9d9d;
   padding-right: 0.5em;
   margin-right: 0.2em;
-}
-
-.footer2 a {
-  border-right: 1px solid #9f9d9d;
-  padding-right: 0.5em;
-  margin-right: 0.5em;
 }
 
 #eua {
