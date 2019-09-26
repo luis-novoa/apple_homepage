@@ -1,0 +1,237 @@
+/* general */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
+  color: #6e6e6e;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* main image */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 33em;
+  width: 100vw;
+}
+
+.main-img {
+  background: url(images/your_verse_hero.jpg) 55% 99% no-repeat;
+  height: 33em;
+  width: 100vw;
+}
+
+.main-img-description {
+  position: absolute;
+  height: 33em;
+  width: 100vw;
+  z-index: 1;
+}
+
+.main-img-description span {
+  visibility: hidden;
+}
+
+.main nav {
+  width: 75vw;
+  height: 2.5em;
+  align-self: center;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+  background-image:
+    linear-gradient(
+      to top,
+      #8d8d8d,
+      #707070 50%,
+      #5e5e5e 50%,
+      #737373
+    );
+  box-sizing: content-box;
+  box-shadow: 0 1px 3px -1px;
+  margin-bottom: 3em;
+}
+
+.text > * {
+  align-self: center;
+}
+
+.main nav > * {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  box-sizing: content-box;
+  align-content: baseline;
+  line-height: 1.8em;
+  background: url(images/globalnav_text.png) 50% 5px no-repeat;
+}
+
+#item2 {
+  background-position-y: -25px;
+}
+
+#item3 {
+  background-position-y: -55px;
+}
+
+#item4 {
+  background-position-y: -85px;
+}
+
+#item5 {
+  background-position-y: -115px;
+}
+
+#item6 {
+  background-position-y: -145px;
+}
+
+#item7 {
+  background-position-y: -175px;
+}
+
+#item8 {
+  background-position-y: -205px;
+}
+
+.middle {
+  border-left: 1px solid #6f6b6b;
+  border-right: 1px solid #868383;
+}
+
+.main nav input {
+  background: url(images/Search-icon-vector-02.svg) no-repeat, white;
+  background-size: contain;
+  border-radius: 15px;
+  border: none;
+  box-shadow: inset 0 5px 2px 0 rgb(128, 127, 127);
+  padding-left: 2em;
+  flex: none;
+  height: 1.25em;
+  width: 6em;
+  align-self: center;
+  justify-self: center;
+  margin: 0 1em;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+
+.text-img1 {
+  margin-bottom: -0.6em;
+}
+
+.img-links a {
+  flex: 1;
+  height: 13em;
+}
+
+.text a {
+  background: url(images/cta_your_verse_27pt.png) 38% 0 no-repeat;
+  height: 2em;
+  width: 60em;
+  margin-top: 2em;
+  z-index: 2;
+}
+
+.footer2 a {
+  border-right: 1px solid #9f9d9d;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+}
+
+.text a:hover {
+  background: url(images/cta_your_verse_27pt.png) 38% 100% no-repeat;
+}
+
+.text a span {
+  visibility: hidden;
+}
+
+/* bottom images */
+
+.img-links {
+  display: flex;
+}
+
+.img-links a span {
+  visibility: hidden;
+}
+
+.iphone-5s {
+  background: url(images/promo_iphone5s.jpg) 0 0 no-repeat;
+}
+
+.iphone-5c {
+  background: url(images/promo_iphone5c.jpg) 0 0 no-repeat;
+}
+
+.birth {
+  background: url(images/promo_30_years.jpg) 0 0 no-repeat;
+}
+
+.supplier {
+  background: url(images/promo_supplier_responsibility.jpg) 0 0 no-repeat;
+}
+
+/* footer */
+
+footer {
+  box-sizing: content-box;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  height: 4em;
+  padding: 2em 3em;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 4em;
+}
+
+.footer2 {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.terms {
+  border-right: 1px solid #9f9d9d;
+  padding-right: 0.5em;
+  margin-right: 0.2em;
+}
+
+#eua {
+  border: none;
+  position: absolute;
+  right: 8em;
+}
