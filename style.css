@@ -4,8 +4,14 @@ html {
 }
 
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans", 
+    "Lucida Sans Regular", 
+    "Lucida Grande",
+    "Lucida Sans Unicode", 
+    Geneva, 
+    Verdana, 
+    sans-serif;
   color: #6e6e6e;
 }
 
@@ -48,7 +54,8 @@ a:hover {
 .main nav {
   width: 75vw;
   height: 2.5em;
-  align-self: center;
+  align-self: 
+  center;
   border-radius: 3px;
   display: flex;
   justify-content: space-around;
